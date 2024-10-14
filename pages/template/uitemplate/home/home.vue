@@ -58,6 +58,10 @@
 					    </view>
 					</view>
 				</view>
+				
+				<view class="margin-top-xxl">
+				    <button class="cu-btn block bg-blue margin-tb-sm lg round">提交</button>
+				</view>
 
 			</view>
 
