@@ -11,18 +11,20 @@
 
 		<!-- 页面 -->
 		<scroll-view scroll-y class="scrollPage">
-			<view class="container">
-				<view class="nav-list">
-					<navigator open-type="navigate" hover-class="none" url="/pages/template/uitemplate/home/home"
-						class="nav-li-new bg-gradual-cyan-light light">
-						<view class="text-xl text-bold">完整UI模板</view>
-						<view class="flex padding-top-xxl">
-							<view class="flex-sub">基于ColorUI GA组件库实现商城、新闻、博客、企业网站等完整UI模板，持续开发更新中...</view>
-						</view>
-						<text class="cuIcon-hotfill"></text>
-					</navigator>
-				</view>
+			
+			<view class="nav-list">
+				<navigator open-type="navigate" hover-class="none" url="/pages/template/uitemplate/home/home"
+					class="nav-li-new head-card light">
+					<view class="text-xl text-lg">
+						<image src="/static/images/7.png" draggable="false"></image>总资产
+						<button class="cu-btn round text-lg bg-blue margin-right-lg fr shadow" >申请</button>
+					</view>
+					<view class="flex padding-lg">
+						<view class="flex-sub text-xxl"><text>￥</text>10000</view>
+					</view>
+				</navigator>
 			</view>
+
 			<view class="cu-tabbar-height"></view>
 		</scroll-view>
 	</view>
@@ -72,6 +74,10 @@
 		opacity: 0.5;
 	}
 
+	.nav-list {
+		margin-top: 5rem;
+	}
+
 	.nav-li-new {
 		padding: 24rpx;
 		border-radius: 20rpx;
@@ -81,6 +87,12 @@
 		background-position: center;
 		position: relative;
 		z-index: 1;
+
+		uni-image {
+			width: 15px;
+			height: 15px;
+			margin-right: 5px;
+		}
 	}
 
 	.nav-li-new::after {
@@ -103,14 +115,12 @@
 		box-shadow: 4rpx 4rpx 6rpx rgba(94, 185, 94, 0.4);
 	}
 
-	.nav-li-new text {
-		position: absolute;
-		right: 24rpx;
-		top: 16rpx;
-		font-size: 52rpx;
-		width: 60rpx;
-		height: 60rpx;
-		text-align: center;
-		line-height: 60rpx;
+
+	.head-card {
+		border-radius: 17px;
+		background: linear-gradient(180deg, rgba(226, 242, 255, .5), #fff);
+		-webkit-backdrop-filter: blur(4px);
+		backdrop-filter: blur(4px);
+		box-shadow: 0 2px 13px 0px rgba(0, 0, 0, .05);
 	}
 </style>

@@ -165,7 +165,7 @@ export default {
 
 .scrollPage {
     height: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .nav-list {
