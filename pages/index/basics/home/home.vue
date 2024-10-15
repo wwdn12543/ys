@@ -78,41 +78,47 @@
 						</swiper>
 					</view>
 				</view>
-				
+
 				<view class="cu-card article bg-white radius-lg margin-top">
 					<view class="text-black text-lg text-bold margin title">新闻资讯</view>
-				    <view class="cu-item shadow">
-				        <view class="content">
-				            <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
-				            <view class="desc solid-bottom">
-				                <view class="text-content">创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
-				                <view>
-				                    <view class="light sm margin-bottom-lg">2024-4-24</view>
-				                </view>
-				            </view>
-				        </view>
-				    </view>
 					<view class="cu-item shadow">
-					    <view class="content">
-					        <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
-					        <view class="desc solid-bottom">
-					            <view class="text-content">创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
-					            <view>
-					                 <view class="light sm margin-bottom-lg">2024-4-24</view>
-					            </view>
-					        </view>
-					    </view>
+						<view class="content">
+							<image
+								src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1"
+								mode="aspectFill"></image>
+							<view class="desc solid-bottom">
+								<view class="text-content">创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
+								<view>
+									<view class="light sm margin-bottom-lg">2024-4-24</view>
+								</view>
+							</view>
+						</view>
 					</view>
 					<view class="cu-item shadow">
-					    <view class="content">
-					        <image src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1" mode="aspectFill"></image>
-					        <view class="desc solid-bottom">
-					            <view class="text-content">创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
-					            <view>
-					                 <view class="light sm margin-bottom-lg">2024-4-24</view>
-					            </view>
-					        </view>
-					    </view>
+						<view class="content">
+							<image
+								src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1"
+								mode="aspectFill"></image>
+							<view class="desc solid-bottom">
+								<view class="text-content">创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
+								<view>
+									<view class="light sm margin-bottom-lg">2024-4-24</view>
+								</view>
+							</view>
+						</view>
+					</view>
+					<view class="cu-item shadow">
+						<view class="content">
+							<image
+								src="https://image.meiye.art/FlqKg5bugFQD5Qzm_QhGM7ET4Mtx?imageMogr2/thumbnail/450x/interlace/1"
+								mode="aspectFill"></image>
+							<view class="desc solid-bottom">
+								<view class="text-content">创意是基于本质而来的解决方案。本质是什么，是不会因为其他外在条件而改变的东西。</view>
+								<view>
+									<view class="light sm margin-bottom-lg">2024-4-24</view>
+								</view>
+							</view>
+						</view>
 					</view>
 				</view>
 
@@ -122,36 +128,38 @@
 			<view class="cu-tabbar-height"></view>
 		</scroll-view>
 		<template>
-		  <view v-if="isVisible" class="u-transition u-fade-enter-to u-fade-enter-active" style="transition-duration: 300ms; transition-timing-function: ease-out; position: fixed; inset: 0px; z-index: 999; background-color: rgba(0, 0, 0, 0.4);">
-		    <view class="warp2">
-		      <view class="rect2">
-		        <view class="close" @click="close">
-		          <view class="u-icon u-icon--right">
-		            <text class="u-icon__icon uicon-close-circle cuIcon-roundclose" style="font-size: 28px; line-height: 28px; font-weight: normal; top: 0px; color: white;">
-		              <span></span>
-		            </text>
-		          </view>
-		        </view>
-		        <view class="notice-content">
-		          <scroll-view style="height: 100%;">
-		            <view class="uni-scroll-view">
-		              <view class="uni-scroll-view" style="overflow: hidden auto;">
-		                <view class="uni-scroll-view-content">
-		                  <view id="_root" class="_root">
-		                    <view class="_undefined undefined">
-		                      <text>
-		                        <span>测试测试</span>
-		                      </text>
-		                    </view>
-		                  </view>
-		                </view>
-		              </view>
-		            </view>
-		          </scroll-view>
-		        </view>
-		      </view>
-		    </view>
-		  </view>
+			<view v-if="isVisible" class="u-transition u-fade-enter-to u-fade-enter-active"
+				style="transition-duration: 300ms; transition-timing-function: ease-out; position: fixed; inset: 0px; z-index: 999; background-color: rgba(0, 0, 0, 0.4);">
+				<view class="warp2">
+					<view class="rect2">
+						<view class="close" @click="close">
+							<view class="u-icon u-icon--right">
+								<text class="u-icon__icon uicon-close-circle cuIcon-roundclose"
+									style="font-size: 28px; line-height: 28px; font-weight: normal; top: 0px; color: white;">
+									<span></span>
+								</text>
+							</view>
+						</view>
+						<view class="notice-content">
+							<scroll-view style="height: 100%;">
+								<view class="uni-scroll-view">
+									<view class="uni-scroll-view" style="overflow: hidden auto;">
+										<view class="uni-scroll-view-content">
+											<view id="_root" class="_root">
+												<view class="_undefined undefined">
+													<text>
+														<span>测试测试</span>
+													</text>
+												</view>
+											</view>
+										</view>
+									</view>
+								</view>
+							</scroll-view>
+						</view>
+					</view>
+				</view>
+			</view>
 		</template>
 	</view>
 </template>
@@ -238,16 +246,13 @@
 						money_2: '573.56',
 						money_name2: '俄罗斯卢布'
 					}
-				]
+				],
+				DotStyle: false
 			};
 		},
 		options: {
 			addGlobalClass: true
 		},
-		/**
-		 * 组件的属性列表
-		 */
-		props: {},
 		/**
 		 * 组件的方法列表
 		 */
@@ -263,10 +268,10 @@
 				});
 			},
 			close() {
-			    this.isVisible = false;
+				this.isVisible = false;
 			}
 		},
-		created: function() {}
+		
 	};
 </script>
 <style>
@@ -276,6 +281,7 @@
 		height: 100%;
 		opacity: 0.5;
 	}
+
 	.zaiui-user-info-order-box {
 		border-radius: 18.18rpx;
 
@@ -284,6 +290,7 @@
 		}
 
 	}
+
 	.title::before {
 		width: 12px;
 		height: 12px;
@@ -301,57 +308,60 @@
 		text-align: center;
 		color: rgba(0, 0, 0, .8)
 	}
+
 	.warp2 {
-		display:flex;
-		align-items:center;
-		justify-content:center;
-		height:100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+
 		.rect2 {
-			width:325px;
-			height:659px;
-			display:flex;
-			align-items:center;
-			justify-content:center;
-			position:relative;
-			background-image:url(/static/images/notice2.11501d25.jpg);
-			background-size:100% 100%;
-			border-radius:10px;
+			width: 325px;
+			height: 659px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+			background-image: url(/static/images/notice2.11501d25.jpg);
+			background-size: 100% 100%;
+			border-radius: 10px;
+
 			.notice-content {
-				position:absolute;
-				top:131px;
-				left:0;
-				width:100%;
-				height:calc(100% - 131px);
-				box-sizing:border-box;
-				padding:25px;
-				font-size:15px;
+				position: absolute;
+				top: 131px;
+				left: 0;
+				width: 100%;
+				height: calc(100% - 131px);
+				box-sizing: border-box;
+				padding: 25px;
+				font-size: 15px;
+
 				.scroll-view-box {
-					width:100%;
-					height:100%;
-					background-color:#fff;
-					border-radius:10px;
-					box-sizing:border-box;
-					padding:5px;
+					width: 100%;
+					height: 100%;
+					background-color: #fff;
+					border-radius: 10px;
+					box-sizing: border-box;
+					padding: 5px;
+
 					uni-scroll-view {
-						width:100%;
-						height:100%;
-						padding:5px;
-						border-radius:12px;
-						box-sizing:border-box
+						width: 100%;
+						height: 100%;
+						padding: 5px;
+						border-radius: 12px;
+						box-sizing: border-box
 					}
 				}
 			}
-			
+
 			.close {
-				position:absolute;
-				width:25px;
-				height:25px;
-				right:12px;
-				top:8px;
-				z-index:9999
+				position: absolute;
+				width: 25px;
+				height: 25px;
+				right: 12px;
+				top: 8px;
+				z-index: 9999
 			}
 		}
 	}
-	
-
 </style>

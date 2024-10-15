@@ -169,6 +169,10 @@
 			"style": {}
 		},
 		{
+			"path": "pages/about/basics/sign/sign",
+			"style": {}
+		},
+		{
 			"path": "pages/template/home/home",
 			"style": {
 				"component": true
