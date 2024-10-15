@@ -165,6 +165,18 @@
 			"style": {}
 		},
 		{
+			"path": "pages/about/login/login",
+			"style": {}
+		},
+		{
+			"path": "pages/about/login/register",
+			"style": {}
+		},
+		{
+			"path": "pages/about/login/findpwd",
+			"style": {}
+		},
+		{
 			"path": "pages/about/about/about",
 			"style": {}
 		},
